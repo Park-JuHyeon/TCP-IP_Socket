@@ -26,3 +26,10 @@
 	- 서버와 클라이언트 통신
 		- hserver 실행 후 포트번호 할당 : ex) ./hserver 9000
 		- hclient + ip번호 + 포트번호 실행 : ex) ./hclient 127.0.0.1 9000
+		
+## Day 03
+- TCP 기반 서버/클라이언트 (chapter 5)
+		- echo_server(eserver), echo_client(eclient) 실행 구현
+
+- UDP 기반 서버/클라이언트 (chapter 6)
+	
