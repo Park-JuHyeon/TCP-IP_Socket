@@ -33,3 +33,18 @@
 
 - UDP 기반 서버/클라이언트 (chapter 6)
 	
+	
+## Day 04
+- 도메인 이름과 인터넷 주소 (chapter 8) (gethostbyname.c)
+	- 도메인 이름
+		- IP를 대신하는 서버의 주소 ex) www.naver.com
+		
+	- DNS 서버
+		- 도메인 이름을 IP주소로 변환시켜줌
+		
+- 멀티프로세스 기반의 서버구현(chapter 10) : fork.c
+	- fork함수 : 부모 프로세스에는 자식 프로세스의 ID가 저장되고,
+				자식 프로세스에는 0이 저장된다.
+	- 좀비 프로세스 (zombie.c)
+		
+		
